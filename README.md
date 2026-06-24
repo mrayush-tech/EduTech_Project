@@ -70,40 +70,40 @@ For detailed API documentation and endpoints, refer to the [API Documentation](l
 
 ## Installation
 1. Clone the repository:
-   ```sh
+  
 git clone https://github.com/mrayush-tech/EduTech_Project.git
 
-   ```
+   
 2. Navigate to the project directory:
-   ```sh
+   
 cd EduTech_Project
-   ```
+   
 3. Install dependencies:
-   ```sh
+  
    npm install
-   ```
+  
 
 ## Configuration
 1. Set up a MongoDB database and obtain the connection URL.
-2. Create a `.env` file in the root directory with the following environment variables:
-   ```env
+2. Create a .env file in the root directory with the following environment variables:
+  
    MONGODB_URI=<your-mongodb-connection-url>
    JWT_SECRET=<your-jwt-secret-key>
-   ```
+  
 
 ## Usage
 1. Start the server:
-   ```sh
+   
    npm start
-   ```
+   
 2. Open a new terminal and navigate to the client directory:
-   ```sh
+   
    cd client
-   ```
+   
 3. Start the React development server:
-   ```sh
+   
    npm run start
-   ```
+  
 4. Access the application in your browser at [http://localhost:3000](http://localhost:3000).
 
 EduTech is designed to make education more accessible and engaging for students while providing instructors with a powerful platform to share their knowledge and connect with learners worldwide.
